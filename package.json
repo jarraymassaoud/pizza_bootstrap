@@ -50,7 +50,7 @@
   "scripts": {
     "start": "npm run watch:all",
     "redeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build",
     "lite": "lite-server",
     "scss": "node-sass -o css/ css/",
     "watch:scss": "onchange 'css/*.scss' -- npm run scss",
@@ -65,5 +65,5 @@
   },
   "author": "",
   "license": "ISC",
-  "homepage": " https://jarraymassaoud.github.io/pizz-pizza_bootstrap/"
+  "homepage": " https://jarraymassaoud.github.io/pizza_bootstrap"
 }
