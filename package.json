@@ -48,7 +48,7 @@
   },
   "scripts": {
     "start": "npm run watch:all",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages  -d dist",
     "lite": "lite-server",
     "scss": "node-sass -o css/ css/",
     "watch:scss": "onchange 'css/*.scss' -- npm run scss",
@@ -62,5 +62,6 @@
     "grunt": "grunt"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": " https://jarraymassaoud.github.io/pizz-pizza_bootstrap/"
 }
